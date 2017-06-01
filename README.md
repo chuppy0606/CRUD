@@ -1,6 +1,6 @@
 # CRUD
 
-![main](./img/main.png)
+![ex_main](../img/main.png)
 
 2017.06.02
 
