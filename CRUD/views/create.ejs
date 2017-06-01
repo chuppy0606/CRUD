@@ -1,17 +1,21 @@
+<!--Use add Modal instead of create.js.-->
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <%- include boot-partial.ejs %>
+  <title>ADD</title>
 </head>
 <body>
-
-  <p><h1>게시글 추가</h1><p>
+<p><h1>게시글 추가</h1><p>
 <form action="/schema_add" method="get">
-  <div>아이디: <input type="text" name="id"></div>
-  <div>비밀번호: <input type="text" name="pwd"></div>
+  <div>제목: <input type="text" name="note_name"></div>
+  <div>글: <input type="text" name="note_body"></div>
+  <div>작성자: <input type="text" name="user_name"></div>
   <div><input type="submit" value="Submit"></div>
 </form>
+<br>
+<a href="/">BACK TO MAIN</a>
 </body>
 </html>

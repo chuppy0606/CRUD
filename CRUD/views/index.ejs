@@ -2,15 +2,24 @@
 <html>
   <head>
     <title><%= title %></title>
+    <%- include boot-partial.ejs %>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <body class="index_body">
+    <header class="Lobster">
+      <h1>NOHJUHEE</h1>
+      <h4>This is <%= title %> example...</h4>
+    </header>
 
-    <!--<form action="/create" method="get">
-      <div><input type="submit" value="Submit"></div>-->
-      <a href="/create">aaaaaaa</a>
-    </form>
+<!--Navigation-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <ul class="nav navbar-nav">
+  <li role="presentation"><a href="#">LOG-IN</a></li>
+  <li role="presentation"><a href="/read">NOTICE BOARD</a></li>
+</ul>
+  </div>
+</nav>
+
   </body>
 </html>

@@ -1,14 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var userInfo = require('../models/user.js');
-
-router.get('/create', function(req, res, next) {
-    res.render('create');
-});
+var userInfo = require('../models/note.js');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'HELLO' });
+  res.render('index', { title: 'CRUD' });
 });
 
 module.exports = router;

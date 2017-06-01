@@ -1,8 +1,50 @@
-body {
-  padding: 50px;
+html, body {
+  margin: 0px;
+  padding: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+.index_body {
+  background-image: url(http://www.planwallpaper.com/static/images/cool-wallpaper-hd-London-eye.jpg);
+  background-size: cover;;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 a {
   color: #00B7FF;
+}
+
+table {
+  align-items: center;
+  justify-content: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+  background:transparent;
+  border: 0;
+}
+
+.Lobster{
+  font-family: 'Lobster', cursive;
+}
+
+.Montserrat{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.Lilita+One{
+  font-family: 'Lilita One', cursive;
+}
+
+.Montez{
+font-family: 'Montez', cursive;
 }
